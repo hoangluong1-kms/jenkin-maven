@@ -6,11 +6,21 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TestMavenApplicationTests {
+class TestMavenApplicationTests
+{
 
-	@Test
-	void contextLoads() {
-		assertThat(true);
-	}
+    @Test
+    void contextLoads()
+    {
+        assertThat(true);
+    }
+
+    @Test
+    void contextLoads1()
+    {
+
+        assertThat(new Hoang(1).getId() == 1);
+
+    }
 
 }
