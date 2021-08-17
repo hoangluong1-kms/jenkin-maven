@@ -8,6 +8,7 @@ class TestMavenApplicationTests {
 
 	@Test
 	void contextLoads() {
+		assertThat(true);
 	}
 
 }
